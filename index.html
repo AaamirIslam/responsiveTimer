@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Live Clock</h1>
+        <div id="liveClock"></div>
+        
+        <h1>Countdown Timer</h1>
+        <input type="number" id="countdownInput" placeholder="Enter seconds">
+        <button onclick="startCountdown()">Start Countdown</button>
+        <div id="countdownDisplay"></div>
+        
+        <h1>Stopwatch</h1>
+        <div id="stopwatch">00:00:00</div>
+        <button onclick="startStopwatch()">Start</button>
+        <button onclick="stopStopwatch()">Stop</button>
+        <button onclick="resetStopwatch()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
